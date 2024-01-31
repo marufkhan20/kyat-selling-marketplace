@@ -83,7 +83,7 @@ h6 {
 }
 
 .dashboard-content {
-  width: calc(100% - 326px);
+  width: calc(100% - 326px) !important;
 }
 
 @media (max-width: 1150px) {
@@ -94,7 +94,7 @@ h6 {
 
 @media (max-width: 1024px) {
   .dashboard-content {
-    width: 100%;
+    width: 100% !important;
   }
 }
 

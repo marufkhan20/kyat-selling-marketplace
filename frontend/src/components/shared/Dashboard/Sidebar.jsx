@@ -49,7 +49,7 @@ const Sidebar = () => {
   } else {
   }
   return (
-    <div className="w-full lg:min-w-[300px] h-fit p-7 rounded-lg bg-[#D4E6FF]">
+    <div className="lg:!min-w-[300px] h-fit p-7 rounded-lg bg-[#D4E6FF]">
       <div className="w-[140px] mx-auto p-2 rounded-md border border-white">
         <img className="rounded-md" src="/images/sellers/6.jpg" alt="user" />
       </div>
