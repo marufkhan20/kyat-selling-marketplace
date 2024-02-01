@@ -1,4 +1,3 @@
-import FeeCalculator from "../shared/Dashboard/FeeCalculator";
 import Button from "../ui/Button";
 
 const Hero = () => {
@@ -16,7 +15,7 @@ const Hero = () => {
             With Escrow Myanmar you can buy and sell Myanmar Kyat safely. We
             work to protect you and your family.
           </p>
-          <FeeCalculator />
+          <img src="/images/hero-banner.png" alt="hero" />
         </div>
         <div className="w-full flex flex-col">
           <div className="flex items-center gap-5 flex-wrap">
