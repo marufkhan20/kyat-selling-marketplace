@@ -1,4 +1,4 @@
-const Heading = ({ title, subTitle, center = true }) => {
+const Heading = ({ title = "", subTitle = "", center = true }) => {
   return (
     <div className={center && "text-center"}>
       {subTitle && <h4 className="text-primary text-lg">{subTitle}</h4>}

@@ -4,7 +4,7 @@ import DashboardLayout from "@/components/shared/Dashboard/DashboardLayout";
 
 const ChatsPage = () => {
   return (
-    <main>
+    <main className="min-h-[92vh]">
       {/* <BreadCumb page="Chats" /> */}
       <DashboardLayout>
         <div className="flex justify-between gap-2">
