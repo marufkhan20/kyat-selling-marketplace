@@ -8,7 +8,7 @@ const Hero = () => {
         backgroundImage: `url(/images/hero-bg.jpg)`,
         backgroundSize: "cover",
       }}
-      className="px-5 sm:px-0 py-[150px]"
+      className="px-5 sm:px-0 py-[150px] lg:pt-[65px] lg:pb-0"
     >
       <div className="container-custom flex-col lg:flex-row py-20 w-full min-h-[92vh] flex items-center gap-20">
         <div className="w-full flex flex-col gap-8">
