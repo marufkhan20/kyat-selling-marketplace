@@ -11,7 +11,8 @@ const DashboardPage = () => {
         {/* <Information /> */}
         <FeeCalculator />
         <Transactions viewButton title="My Transactions" />
-        <Orders viewButton title="Market Place" />
+        <Orders viewButton title="Market Place -Buyers" />
+        <Orders viewButton title="Market Place - Sellers" />
       </DashboardLayout>
     </main>
   );
