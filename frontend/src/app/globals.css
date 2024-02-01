@@ -90,6 +90,10 @@ h6 {
   width: calc(100% - 326px) !important;
 }
 
+main {
+  min-height: calc(100vh - 88px) !important;
+}
+
 @media (max-width: 1150px) {
   .container-custom {
     width: 80%;
