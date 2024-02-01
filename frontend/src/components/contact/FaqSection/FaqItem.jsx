@@ -16,7 +16,7 @@ const FaqItem = ({ question, answer }) => {
         </div>
       </div>
 
-      {open && <p className="p-5">{answer}</p>}
+      {open && <p className="p-5 text-lg">{answer}</p>}
     </div>
   );
 };

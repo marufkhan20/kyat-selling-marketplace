@@ -1,9 +1,11 @@
+"use client";
 import Heading from "../../shared/Heading";
 import FaqItem from "./FaqItem";
 
 const FaqSection = () => {
+  // components/SmoothScroll.js
   return (
-    <section className="section-container bg-[#F0F6FE]">
+    <section id="faq" className="section-container bg-[#F0F6FE]">
       <div className="container-custom">
         <Heading title="Frequently Asked Question" />
 

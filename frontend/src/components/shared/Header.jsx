@@ -30,13 +30,13 @@ const Header = () => {
                 <Link href="/about">Our Purpose</Link>
               </li>
               <li className="transition-all hover:text-primary text-lg">
-                <Link href="/about">About Us</Link>
+                <Link href="/about#about">About Us</Link>
               </li>
               <li className="transition-all hover:text-primary text-lg">
                 <Link href="/contact">Contact Us</Link>
               </li>
               <li className="transition-all hover:text-primary text-lg">
-                <Link href="/contact">Faq</Link>
+                <Link href="/contact#faq">Faq</Link>
               </li>
               <li className="transition-all hover:text-primary text-lg">
                 <Link href="/contact">Feedback</Link>

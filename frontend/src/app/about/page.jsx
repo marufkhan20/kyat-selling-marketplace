@@ -25,7 +25,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="section-container bg-[#F0F6FE]">
+      <section id="about" className="section-container bg-[#F0F6FE]">
         <div className="container-custom">
           <Heading title="About Us" center={false} />
           <p className="mt-10 text-lg">
