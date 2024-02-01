@@ -5,7 +5,7 @@ import Label from "@/components/ui/Label";
 
 const SignInPage = () => {
   return (
-    <main className="pt-[75px] min-h-[92vh]">
+    <main className="pt-[75px] min-h-[100vh]">
       <section className="section-container">
         <div className="container-custom">
           <Heading title="Welcome Back" />

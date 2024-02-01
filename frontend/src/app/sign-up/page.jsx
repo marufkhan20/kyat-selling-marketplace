@@ -5,7 +5,7 @@ import Label from "@/components/ui/Label";
 
 const SignUpPage = () => {
   return (
-    <main className="pt-[75px]">
+    <main className="pt-[75px] min-h-[100vh]">
       <section className="section-container">
         <div className="container-custom">
           <Heading title="Signup & Get Started Now" />
