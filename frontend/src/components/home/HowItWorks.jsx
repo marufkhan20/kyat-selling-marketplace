@@ -2,62 +2,51 @@ import Heading from "../shared/Heading";
 
 const HowItWorks = () => {
   return (
-    <section className="section-container">
+    <section className="section-container bg-[#F0F6FE]">
       <div className="container-custom">
-        <Heading title="How It Works" subTitle="Working Process" />
+        <div>
+          <Heading title='What Does "escrow" mean?' center={false} />
+          <p className="mt-4 text-lg">
+            An escrow is a financial and legal agreement designed to protect
+            Buyers and Sellers in a transaction. For a fee, an independent third
+            party holds payment until everyone fulfills theis responsibilities
+            in the transaction.
+          </p>
+          <p className="text-lg mt-10">
+            With an escrow payment, the Seller will only receive the funds when
+            the Buyer has received and accepted the transfer. However, the
+            Seller knows they will receive payment because Escrow Myanmar is
+            holding the funds on their behalf.
+          </p>
+        </div>
 
-        <div className="mt-14 grid sm:grid-cols-2 md:grid-cols-3 gap-10">
-          <div>
-            <h2 className="text-[75px] text-[#efefef] font-extrabold">01</h2>
-            <div className="relative">
-              <div className="bg-primary flex justify-center py-4 rounded-lg ml-4">
-                <h4 className="text-lg text-white">
-                  Register <br />
-                  Your Account
-                </h4>
-              </div>
-              <div className="absolute left-0 top-3 bg-white p-4 rounded-lg how-it-works-card">
-                <img src="/images/works/1.png" alt="work" />
-              </div>
-            </div>
-            <p className="mt-12">
-              You need to create an account to find the best and preferred job.
-            </p>
-          </div>
-          <div>
-            <h2 className="text-[75px] text-[#efefef] font-extrabold">02</h2>
-            <div className="relative">
-              <div className="bg-primary flex justify-center py-4 rounded-lg ml-4">
-                <h4 className="text-lg text-white">
-                  Contact <br />
-                  With Seller
-                </h4>
-              </div>
-              <div className="absolute left-0 top-3 bg-white p-4 rounded-lg how-it-works-card">
-                <img src="/images/works/2.png" alt="work" />
-              </div>
-            </div>
-            <p className="mt-12">
-              You need to create an account to find the best and preferred job.
-            </p>
-          </div>
-          <div>
-            <h2 className="text-[75px] text-[#efefef] font-extrabold">03</h2>
-            <div className="relative">
-              <div className="bg-primary flex justify-center py-4 rounded-lg ml-4">
-                <h4 className="text-lg text-white">
-                  Upload <br />
-                  Your Resume
-                </h4>
-              </div>
-              <div className="absolute left-0 top-3 bg-white p-4 rounded-lg how-it-works-card">
-                <img src="/images/works/3.png" alt="work" />
-              </div>
-            </div>
-            <p className="mt-12">
-              You need to create an account to find the best and preferred job.
-            </p>
-          </div>
+        <div className="mt-12">
+          <Heading title="How Does Escrow Myanmar works?" center={false} />
+          <p className="mt-4 text-lg">
+            Escrow Myanmar reduces the risk of fraud by acting as a trusted
+            third-party that collects, holds, and only disburses Myanmar Kyat
+            when both the Buyer and Seller are setisfied.
+          </p>
+          <p className="text-lg mt-10">
+            Either the Buyer or Seller initiates a transaction. After
+            registering as Escrow.com, all parties agree to the terms of the
+            transaction.
+            <br />
+            Buyer pays Escrow Myanmar. The Buyer submits a payment by approved
+            payment method to our secure Account, Escrow Myanmar verifies the
+            payment, then the Seller is notified that funds have been secured{" "}
+            {"In Escrow"}.
+            <br />
+            Seller transfer to Buyer. Escrow Myanmar verifies that the Buyer
+            receives the transfer.
+            <br />
+            Buyer send confirmation. If not approved, the Buyer will raise a
+            dispute and enter the dispute resolution process.
+            <br />
+            Escrow Myanmar pays the Seller. If the merchandies is accepted,
+            Escrow Myanmar releases funds to the Seller from Escrow Myanmar
+            Account.
+          </p>
         </div>
       </div>
     </section>

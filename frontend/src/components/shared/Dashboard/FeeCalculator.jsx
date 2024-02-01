@@ -1,8 +1,9 @@
 "use client";
 import Button from "@/components/ui/Button";
+import { cn } from "@/lib/utills";
 import { useState } from "react";
 
-const FeeCalculator = () => {
+const FeeCalculator = ({ className }) => {
   const [sellerUsd, setSellerUsd] = useState();
   const [buyerUsd, setBuyerUsd] = useState();
   const [feeCalculateData, setFeeCalculateData] = useState({});
@@ -34,8 +35,8 @@ const FeeCalculator = () => {
     setFeeCalculateData(data);
   };
   return (
-    <div className="bg-white">
-      <div className="p-4 border-b bg-white">
+    <div className={cn(`bg-white`, className)}>
+      <div className="p-4 border-b">
         <h4 className="text-lg">Fees Calculator</h4>
       </div>
 

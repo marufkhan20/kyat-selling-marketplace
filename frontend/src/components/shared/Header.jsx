@@ -6,13 +6,13 @@ import Button from "../ui/Button";
 const Header = () => {
   return (
     <header className="absolute bg-[#F7F7F7] top-0 left-0 right-0 w-full">
-      <div className="px-5 w-full lg:px-0 lg:w-[80%] 2xl:w-[65%] mx-auto">
-        <div className="mx-auto flex items-center justify-between gap-1 sm:gap-5 flex-wrap sm:px-6 py-5 rounded-lg">
+      <div className="w-full px-5 smpx-0 lg:w-[80%] 2xl:w-[65%] mx-auto">
+        <div className="mx-auto flex items-center justify-between gap-1 sm:gap-5 flex-wrap py-5 rounded-lg">
           <Link
             className="text-primary font-bold text-2xl sm:text-3xl"
             href="/"
           >
-            Logo Here
+            Escrow Myanmar
           </Link>
           <nav className="hidden lg:block">
             <ul className="flex items-center flex-wrap gap-5">
@@ -34,7 +34,7 @@ const Header = () => {
             </ul>
           </nav>
           <div className="flex items-center gap-7">
-            <Link href="#" className="text-2xl text-primary">
+            <Link href="#" className="text-2xl text-primary hidden sm:block">
               <LuSearch />
             </Link>
             <Button

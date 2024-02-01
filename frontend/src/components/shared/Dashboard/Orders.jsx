@@ -17,7 +17,7 @@ const ActiveOrders = ({ title, viewButton = false }) => {
       {viewButton && (
         <div className="flex justify-center pb-4">
           <Button variant="secondary" href="/dashboard/orders">
-            View All Orders
+            View All
           </Button>
         </div>
       )}

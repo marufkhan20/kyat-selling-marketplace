@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const Order = () => {
   return (
     <div className="p-6 border-b flex justify-between gap-4 flex-wrap items-center mb-2 bg-white">
@@ -11,9 +9,7 @@ const Order = () => {
       <span>USD</span>
       <span>$250</span>
       <span>3380</span>
-      <Link href="#" className="text-primary">
-        View
-      </Link>
+      <span className="text-primary">Accept</span>
     </div>
   );
 };

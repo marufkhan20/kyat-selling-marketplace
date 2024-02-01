@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { FaFacebookF, FaTwitter } from "react-icons/fa";
-
 const Footer = () => {
   return (
     <footer style={{ backgroundImage: `url(/images/footer-bg.jpg)` }}>
@@ -145,16 +142,9 @@ const Footer = () => {
           </div>
         </div> */}
 
-        <div className="py-8 text-white flex items-center justify-between flex-wrap gap-5">
-          <p>Copyright © 2023 All Rights Reserved.</p>
-          <div className="text-primary flex items-center gap-5 text-xl">
-            <Link href="#">
-              <FaFacebookF />
-            </Link>
-            <Link href="#">
-              <FaTwitter />
-            </Link>
-          </div>
+        <div className="py-8 text-white flex items-center flex-wrap gap-5">
+          <p>Email: info@escrow@gmail.com</p>
+          <p>Phone: 000-000-0000</p>
         </div>
       </div>
     </footer>
