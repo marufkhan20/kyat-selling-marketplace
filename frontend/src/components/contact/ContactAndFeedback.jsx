@@ -20,8 +20,10 @@ const ContactAndFeedback = () => {
               <input
                 type="radio"
                 className="w-5 h-5 rounded-full border-2 border-primary"
+                id="1"
+                name="whatNeed"
               />
-              <label>
+              <label htmlFor="1">
                 I require help setting up a transition or other support
               </label>
             </li>
@@ -29,15 +31,21 @@ const ContactAndFeedback = () => {
               <input
                 type="radio"
                 className="w-5 h-5 rounded-full border-2 border-primary"
+                id="2"
+                name="whatNeed"
               />
-              <label>{"I'd"} like to leave some feedback and improvement</label>
+              <label htmlFor="2">
+                {"I'd"} like to leave some feedback and improvement
+              </label>
             </li>
             <li className="flex items-center gap-2 text-lg">
               <input
                 type="radio"
                 className="w-5 h-5 rounded-full border-2 border-primary"
+                id="3"
+                name="whatNeed"
               />
-              <label>{"I'd"} like to make a complaint</label>
+              <label htmlFor="3">{"I'd"} like to make a complaint</label>
             </li>
           </ul>
 
