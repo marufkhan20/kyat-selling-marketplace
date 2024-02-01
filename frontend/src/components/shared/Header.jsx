@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 const Header = () => {
   return (
-    <header className="absolute top-0 left-0 right-0 w-full">
+    <header className="absolute bg-[#F7F7F7] top-0 left-0 right-0 w-full">
       <div className="px-5 w-full lg:px-0 lg:w-[80%] 2xl:w-[65%] mx-auto">
         <div className="mx-auto flex items-center justify-between gap-1 sm:gap-5 flex-wrap sm:px-6 py-5 rounded-lg">
           <Link

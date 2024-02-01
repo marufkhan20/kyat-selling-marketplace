@@ -1,12 +1,11 @@
 import ChatList from "@/components/Chats/ChatList";
 import Inbox from "@/components/Chats/Inbox";
-import BreadCumb from "@/components/shared/BreadCumb";
 import DashboardLayout from "@/components/shared/Dashboard/DashboardLayout";
 
 const ChatsPage = () => {
   return (
     <main>
-      <BreadCumb page="Chats" />
+      {/* <BreadCumb page="Chats" /> */}
       <DashboardLayout>
         <div className="flex justify-between gap-2">
           <ChatList />

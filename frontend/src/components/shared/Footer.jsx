@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
-import Button from "../ui/Button";
 
 const Footer = () => {
   return (
     <footer style={{ backgroundImage: `url(/images/footer-bg.jpg)` }}>
       <div className="container-custom">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 py-12 border-b border-gray-700">
+        {/* <div className="flex flex-col lg:flex-row items-center justify-between gap-10 py-12 border-b border-gray-700">
           <div className="w-full lg:w-[40%]">
             <h3 className="text-white text-xl">
               Join our email subscription now to get updates on new jobs and
@@ -144,7 +143,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="py-8 text-white flex items-center justify-between flex-wrap gap-5">
           <p>Copyright © 2023 All Rights Reserved.</p>
